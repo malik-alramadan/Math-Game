@@ -1,0 +1,94 @@
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+            text-align: right; /* محاذاة النص إلى اليمين */
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        .section input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .section button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .section button:hover {
+            background-color: #0056b3;
+        }
+        #quiz-content {
+            margin-top: 20px;
+        }
+        #question {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+         
+        }
+        #answer {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        #submit-answer {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #submit-answer:hover {
+            background-color: #0056b3;
+        }
+        #feedback {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        #correct {
+            color: #28a745; /* اللون الأخضر */
+        }
+        #incorrect {
+            color: #d9534f; /* اللون الأحمر */
+        }
+        #score {
+            font-size: 1.2em;
+            color: #28a745;
+            margin-top: 20px;
+        }
