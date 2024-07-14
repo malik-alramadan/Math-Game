@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>لعبة الرياضيات</title>
+    <style>
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>لعبة الرياضيات</h1>
+
+        <div class="section" id="grade-section">
+            <h2>اختر الصف</h2>
+            <button onclick="selectGrade(1)">الصف الأول</button>
+            <button onclick="selectGrade(2)">الصف الثاني</button>
+            <button onclick="selectGrade(3)">الصف الثالث</button>
+            <button onclick="selectGrade(4)">الصف الرابع</button>
+            <button onclick="selectGrade(5)">الصف الخامس</button>
+            <button onclick="selectGrade(6)">الصف السادس</button>
+            <button onclick="selectGrade(7)">الصف السابع</button>
+            <button onclick="selectGrade(8)">الصف الثامن</button>
+        </div>
+
+        <div class="section" id="level-section" style="display:none;">
+            <h2>المستوى 1</h2>
+            <button id="start-level" onclick="startQuiz()">ابدأ</button>
+        </div>
+
+        <div id="quiz-content" style="display:none;">
+            <p id="question"></p>
+            <input type="number" id="answer" placeholder="الإجابة">
+            <button id="submit-answer" onclick="submitAnswer()">إجابة</button>
+            <p id="feedback"></p>
+            <p id="score">النتيجة: 0/0</p>
+        </div>
+    </div>
